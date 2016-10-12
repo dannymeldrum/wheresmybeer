@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<meta charset='utf-8'>
+		<title>Where's my beer</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+		<link rel='stylesheet' href='css/styles.css'>
+		<link rel='stylesheet' href='css/font-awesome.min.css'>
+	</head>
+	<body>
+
+	<main>
+		<!-- <h1>Where's my beer?</h1> -->
+
+		<div id="content">
+			<div id="mapcontainer">
+				<div class="map" id="map"></div>
+			</div>
+			<div id="venuewrapper">
+				<div id="venues"></div>
+			</div>
+		</div>
+
+		<a class="popup-open" href="JavaScript:;"><i class="fa fa-search" aria-hidden="true"></i></a>
+		<a class="venues-open" href="JavaScript:;"><i class="fa fa-list" aria-hidden="true"></i></a>
+
+		<div class="popup">
+
+			<h2>Find me a beer</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.</p>
+
+			<form action="#" method="GET" id="searchform">
+			    <input type="text" name="query" id="query" value="e.g. North Bar">
+			    <input type="submit" name="submit" id="submit" value="Submit">
+			</form>
+
+			<hr />
+
+			<form class="nearMe">
+				<input type="submit" name="nearMe" value="Near Me">
+			</form>
+
+			<a class="popup-close" href="JavaScript:;"><i class="fa fa-times" aria-hidden="true"></i></a>
+
+		</div>
+		
+		<!-- <div id="map-canvas"></div>
+
+		<a class="popup-open" href="JavaScript:;"><i class="fa fa-search" aria-hidden="true"></i></a>
+
+		<div class="popup">
+
+			<h2>Find me a beer</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.</p>
+
+			<form class="search">
+				<input id="location" type="text" name="search" placeholder="e.g. North bar" />
+				<input type="submit" name="search" value="Search">
+			</form>
+
+			<hr />
+
+			<form class="nearMe">
+				<input type="submit" name="nearMe" value="Near Me">
+			</form>
+
+			<a class="popup-close" href="JavaScript:;"><i class="fa fa-times" aria-hidden="true"></i></a>
+
+		</div>
+
+		<div id="url"></div>
+		
+		<table id="display">
+			<tr>
+				<th>Name</th>
+				<th>Address</th>
+				<th>Distance</th>
+			</tr>
+		</table> -->
+
+	</main>
+
+	</body>
+
+	<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIZnseMoPpfaFxdBmGuiqMbYCtLUvCo9w"></script>
+	<script type='text/javascript' src='js/main.js'></script>
+</html>
